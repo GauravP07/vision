@@ -29,6 +29,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  camera_android:
+    git:
+      url: https://github.com/bottlepay/plugins.git
+      path: packages/camera/camera_android
+      ref: e1a4dba770da9bc3cf9f858bac6837083f8b9059
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -40,22 +45,22 @@ dependencies:
       ref: a7d7a59a33f7cffa0a2a12ab05625807622cc97a
   image: ^3.1.0
   path_provider: ^2.0.8
-  lottie: ^1.2.2
+  lottie: ^2.0.0
   font_awesome_flutter: ^10.0.0
   flutter_tts: ^3.3.3
-  google_mlkit_face_detection: ^0.3.0
+  google_mlkit_face_detection: ^0.5.0
   shake: ^2.1.0
-  telephony: ^0.1.4
+  telephony: ^0.2.0
   camera: ^0.9.4+5
   tflite_flutter: ^0.9.0
   volume_controller: ^2.0.3
-  geolocator: ^8.2.1
+  geolocator: ^9.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_launcher_icons: ^0.9.2
+  flutter_launcher_icons: ^0.11.0
   
 
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -63,7 +68,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
 
 flutter_icons:
   android: "launcher_icon"
